@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>USC TRADES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet">
+   <link href="css/buy.css" rel='stylesheet' type='text/css' />
+   
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/chat.js"></script>
+
+   <style type="text/css">
+    .mydrop {
+     background-color:#FFFFE6
+    }
+ </style>
+
+<!--Less styles -->
+   <!-- Other Less css file //different less files has different color scheam
+	<link rel="stylesheet/less" type="text/css" href="themes/less/simplex.less">
+	<link rel="stylesheet/less" type="text/css" href="themes/less/classified.less">
+	<link rel="stylesheet/less" type="text/css" href="themes/less/amelia.less">  MOVE DOWN TO activate
+	-->
+	<!--<link rel="stylesheet/less" type="text/css" href="themes/less/bootshop.less">
+	<script src="themes/js/less.js" type="text/javascript"></script> -->
+	
+<!-- Bootstrap style --> 
+     <link href="themes/css/base.css" rel="stylesheet" media="screen"/>
+<!-- Bootstrap style responsive -->	
+	<link href="themes/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link href="themes/css/font-awesome.css" rel="stylesheet" type="text/css">
+<!-- Google-code-prettify -->	
+	<link href="themes/js/google-code-prettify/prettify.css" rel="stylesheet"/>
+<!-- fav and touch icons -->
+        <link rel="shortcut icon" href="images/ico/usc.ico">
+	<style type="text/css" id="enject"></style>
+  </head>
+<body>
+     <div class="msg_box" style="right:50px;">
+	<div class="msg_head">&nbsp;&nbsp;&nbsp;Mark Taylor
+	<div class="close1">x</div>
+	</div>
+	<div class="msg_wrap" style="border-style:solid;border-color:#BD2031;border-width: 1px">
+		<div class="msg_body">
+			<div class="msg_b">Hi</div>
+                        <div class="msg_a">Hello</div>
+			<div class="msg_b">I am interested in subleasing the apartment is it still available?</div>
+			<div class="msg_a">Yes</div>	
+			<div class="msg_push"></div>
+		</div>
+	<div class="msg_footer" style="height:40px"><textarea class="msg_input" rows="4"></textarea></div>
+        </div>
+        </div>
+
+    <header id="header">
+        
+        <nav class="navbar navbar-inverse" role="banner" style="height:90px;">
+            
+         <a  style="font-size:12px;font-style: italic;margin-left:1120px;color:#BD2031;" href="inbox.html"><i class="icon-comment"><sub style="color:white">2<sub></i></a>
+             <a  style="font-size:12px;font-style: italic;margin-left:20px;color:white;" href="userprofile.html"><i class="icon-user"></i></a>
+            <a  style="font-size:12px;font-style: italic;margin-left:20px;color:white;" href="index.html"><i class="icon-signout"></i></a>
+           <hr style="margin-top:0px;height:1px;border:none;color:white;background-color:#333;" />
+
+            <div class="container" style="margin-top:-20px"> 
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="margin-top:-2px;"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                
+                                
+               
+                               
+                <input style="margin-top:12px;" type="text" class="search-form" autocomplete="off" value="Search" onfocus="this.value =  '';" onblur="if (this.value == '') {this.value = 'Search';}" placeholder="Search"> 
+                <i style="color: #fff;position:absolute;top:40px;left:630px;margin-top:16px;"  class="fa fa-search"></i> 
+                <div class="collapse navbar-collapse navbar-right" class="social">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" style="padding-top:4px;padding-bottom:4px;"><span style="font-size:14px;">Home</span></a></li>
+                        <li><a href="about-us.html" style="padding-top:4px;padding-bottom:4px;"><span style="font-size:14px;">About Us</span></a></li>
+                        <li class="active"><a href="products.html" style="padding-top:4px;padding-bottom:4px;background-color:#c52d2f"><span style="font-size:14px;">Buy</span></a></li>  
+                        <li><a href="sell.html" style="padding-top:4px;padding-bottom:4px;"><span style="font-size:14px;">Sell</span></a></li>  
+                        <li><a href="contact-us.html" style="padding-top:4px;padding-bottom:4px;"><span style="font-size:14px;">Contact</span></a></li>                       
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+
+<div id="mainBody">
+	<div class="container" style="width:1250px">
+	<div class="row">
+<!-- Sidebar ================================================== -->
+	<div id="sidebar" class="span3" style="width:250px">
+		<div class="well well-small"><a id="myCart" href="product_summary.html" style="font-size:12px;"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart</a></div>
+		<ul id="sideManu" class="nav nav-tabs nav-stacked">
+			<li class="subMenu open" ><a style="color:#BD2031"> BOOKS [35]</a>
+				<ul>
+				<li><a class="active" href="products.html" style="color:#BD2031"><i class="icon-chevron-right"></i>Computer Science (12) </a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Electronics(10)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Mathematics (6)</a></li>
+				<li><a href="products.html"><i class="icon-chevron-right"></i>Industrial (7)</a></li>
+				</ul>
+			</li>
+			<li class="subMenu"><a> HOUSE [55] </a>
+			<ul style="display:none">
+				<li><a href="products1.html"><i class="icon-chevron-right"></i>One BHK Apartment (27)</a></li>
+				<li><a href="products1.html"><i class="icon-chevron-right"></i>Two BHK Apartment (22)</a></li>												
+				<li><a href="products1.html"><i class="icon-chevron-right"></i>Studio Aparrtment(6)</a></li>									
+			</ul>
+			</li>
+			<li class="subMenu"><a>ELECTRONICS[45]</a>
+			</li>
+			<li><a href="products.html">EVENT TICKETS [8]</a></li>
+			<li><a href="products.html">FURNITURE [22]</a></li>
+			<li><a href="products.html">HOUSEHOLD ITEMS [56]</a></li>
+                        <li><a href="products.html">CARS [2]</a></li>
+			<li><a href="products.html">CLOTHES [12]</a></li>
+			<li><a href="products.html">OTHERS [92]</a></li>
+                       
+		</ul>
+		<br/>			
+	</div>
+<!-- Sidebar end=============================================== -->
+	<div class="span9" style="width:950px;">
+    <ul class="breadcrumb">
+		<li>Books</li>
+		<li>Computer Science</li>
+                <i><small class="pull-right"> &nbsp;&nbsp; 12 items are available </small></i>
+    </ul>
+	<form class="form-horizontal span6">
+	 <div class="control-group" style="margin-left:-22px;">
+		<select class="mydrop" style="border-radius:7px; padding: 4px;width:200px;margin-left:0px">
+              <option >Sort Items</option>
+              <option>A - Z</option>
+              <option>Z - A</option>
+              <option>Date</option>
+              <option>Price</option>
+              <option>Location</option>
+            </select>
+
+		</div>
+	  </form>
+	  
+<div id="myTab" class="pull-right">
+ <a href="#listView" data-toggle="tab"><span class="btn btn-large"><i class="icon-list"></i></span></a>
+ <a href="#blockView" data-toggle="tab" style="position:relative;top:-4px;"><span class="btn btn-large btn-primary"><i class="icon-th-large" ></i></span></a>
+</div>
+
+<br class="clr"/>
+<hr class="soft"/>
+<div class="tab-content">
+	<div class="tab-pane" id="listView">
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book1.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				
+				<h5>Computer Networks</h5>
+				<p>
+				The book Computer Networks is required for course EE450-Computer Networks. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                                <p> 
+					<small><i><b>Seller: </b> Mark Taylor</i></small> 
+				</p>
+
+				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+			<form class="form-horizontal qtyFrm">
+			<h3> $80.00</h3>
+			<br/>
+			
+			  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+			  <a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+			
+				</form>
+			</div>
+		</div>
+		<hr class="soft"/>
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book2.jpg" alt=""/>
+			</div>
+			<div class="span4">
+			
+				<h5>Operating System</h5>
+				<p>
+				The book Operating System is required for course CSCI402-Operating System. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                                <p> 
+					<small><i><b>Seller: </b> Ashish Porwal</i></small> 
+				</p>
+
+				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+			<form class="form-horizontal qtyFrm">
+				<h3> $20.00</h3>
+				<br/>
+				
+				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				<a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+				
+			</form>
+			</div>
+		</div>
+		<hr class="soft"/>
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book3.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				
+				<h5>Data Structures</h5>
+				<p>
+				The book Operating Systemh is required for course CSCI112-Data Structures. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                                <p> 
+					<small><i><b>Seller: </b> Suraj Kadam</i></small> 
+				</p>
+
+				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+			<form class="form-horizontal qtyFrm">
+				<h3> $40.00</h3>
+				<br/>
+				
+				  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				  <a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+				
+			</form>
+			</div>
+		</div>
+		<hr class="soft"/>
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book4.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				
+				<h5>Theorotical Computations</h5>
+				<p>
+				The book Theorotical Computations is required for course CSCI552-Theorotical Computations. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                                <p> 
+					<small><i><b>Seller: </b> Rashmi Vijaya</i></small> 
+				</p>
+
+				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+				<form class="form-horizontal qtyFrm">
+				<h3> $60.00</h3>
+				<br/>
+				
+				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				<a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+				
+				</form>
+			</div>
+		</div>
+	
+		<hr class="soft"/>
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book5.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				
+				<h5>Software Engineering</h5>
+				<p>
+				The book Software Engineering is required for course CSCI532-Software Engineering. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                                <p> 
+					<small><i><b>Seller: </b> Mohit Gupta</i></small> 
+				</p>
+    
+			<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+				<form class="form-horizontal qtyFrm">
+				<h3> $30.00</h3>
+				<br/>
+				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				<a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+				</form>
+			</div>
+		</div>
+		<hr class="soft"/>
+		<div class="row">	  
+			<div class="span2">
+				<img src="themes/images/books/book6.jpg" alt=""/>
+			</div>
+			<div class="span4">
+				
+				<h5>UX Design</h5>
+				<p>
+				The book UX Design is required for course CSCI588-UX Design. Had purchaed the book last semester for the course.
+                                Readable and comprehensive book that covers all concepts of AI.In good condition and ready to negotiate.
+				</p>
+                               <p> 
+					<small><i><b>Seller: </b> Shreesta.B.M</i></small> 
+				</p>
+
+				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+				<br class="clr"/>
+			</div>
+			<div class="span3 alignR">
+				<form class="form-horizontal qtyFrm">
+				<h3> $50.00</h3>
+				<br/>
+				
+				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				<a href="product_details.html" class="btn btn-large" style="margin-top:10px"><i class="icon-envelope"></i></a>
+				
+				</form>
+			</div>
+		</div>
+		<hr class="soft"/>
+	</div>
+
+	<div class="tab-pane  active" id="blockView">
+		<ul class="thumbnails">
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book1.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>Computer Networks</h5>
+				  <p> 
+					<small><i><b>Seller: </b>Mark Taylor</i></small>  
+				  </p>
+				   <h4 class="user" style="text-align:left"><a class="btn"> <i class="icon-envelope"></i></a><a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary"  href="#" style="position:relative;top:-4px;">$80.00</a></h4>
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book2.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>Operating Systems</h5>
+				  <p> 
+					<small><i><b>Seller: </b>Ashish Porwal</i></small>  
+				  </p>
+				   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-envelope"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#" style="position:relative;top:-4px;">$20.00</a></h4>
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book3.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>Data Structures</h5>
+				  <p> 
+					<small><i><b>Seller: </b>Suraj Kadam</i></small>
+				  </p>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-envelope"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#" style="position:relative;top:-4px;">$40.00</a></h4>
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book4.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>Theorotical Foundations</h5>
+				  <p> 
+				      <small><i><b>Seller: </b>Rashmi Vijaya</i></small>
+				  </p>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-envelope"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#" style="position:relative;top:-4px;">$40.00</a></h4>
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book5.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>Software Engineering</h5>
+				  <p> 
+					<small><i><b>Seller: </b>Mohit Gupta</i></small> 
+				  </p>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-envelope"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#" style="position:relative;top:-4px;">$30.00</a></h4>
+				</div>
+			  </div>
+			</li>
+			<li class="span3">
+			  <div class="thumbnail">
+				<a href="product_details.html"><img src="themes/images/books/book6.jpg" alt=""/></a>
+				<div class="caption">
+				  <h5>UX Deisgn</h5>
+				  <p> 
+					<small><i><b>Seller: </b>Shreesta B.M</i></small> 
+				  </p>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-envelope"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#" style="position:relative;top:-4px;">$50.00</a></h4>
+				</div>
+			  </div>
+			</li>
+		  </ul>
+	<hr class="soft"/>
+	</div>
+</div>
+
+	
+	<div class="pagination">
+			<ul>
+			<li style="background-color:#BD2031"><a href="#" style="background-color:#BD2031;color:white">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">...</a></li>
+			<li><a href="#">&rsaquo;</a></li>
+			</ul>
+			</div>
+			<br class="clr"/>
+</div>
+</div>
+</div>
+</div>
+<!-- MainBody End ============================= -->
+
+<!-- Footer End ============================= -->
+<footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2015 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Usc Trades</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer End ============================= -->
+
+<!-- Placed at the end of the document so the pages load faster ============================================= -->
+	<script src="themes/js/jquery.js" type="text/javascript"></script>
+	<script src="themes/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="themes/js/google-code-prettify/prettify.js"></script>
+	
+	<script src="themes/js/bootshop.js"></script>
+    <script src="themes/js/jquery.lightbox-0.5.js"></script>
+	
+	<!-- Themes switcher section ============================================================================================= -->
+<div id="secectionBox">
+<link rel="stylesheet" href="themes/switch/themeswitch.css" type="text/css" media="screen" />
+<script src="themes/switch/theamswitcher.js" type="text/javascript" charset="utf-8"></script>
+	<div id="themeContainer">
+	<div id="hideme" class="themeTitle">Style Selector</div>
+	<div class="themeName">Oregional Skin</div>
+	<div class="images style">
+	<a href="themes/css/#" name="bootshop"><img src="themes/switch/images/clr/bootshop.png" alt="bootstrap business templates" class="active"></a>
+	<a href="themes/css/#" name="businessltd"><img src="themes/switch/images/clr/businessltd.png" alt="bootstrap business templates" class="active"></a>
+	</div>
+	<div class="themeName">Bootswatch Skins (11)</div>
+	<div class="images style">
+		<a href="themes/css/#" name="amelia" title="Amelia"><img src="themes/switch/images/clr/amelia.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="spruce" title="Spruce"><img src="themes/switch/images/clr/spruce.png" alt="bootstrap business templates" ></a>
+		<a href="themes/css/#" name="superhero" title="Superhero"><img src="themes/switch/images/clr/superhero.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="cyborg"><img src="themes/switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="cerulean"><img src="themes/switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="journal"><img src="themes/switch/images/clr/journal.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
+		<a href="themes/css/#" name="simplex"><img src="themes/switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="slate"><img src="themes/switch/images/clr/slate.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="spacelab"><img src="themes/switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="united"><img src="themes/switch/images/clr/united.png" alt="bootstrap business templates"></a>
+		<p style="margin:0;line-height:normal;margin-left:-10px;display:none;"><small>These are just examples and you can build your own color scheme in the backend.</small></p>
+	</div>
+	<div class="themeName">Background Patterns </div>
+	<div class="images patterns">
+		<a href="themes/css/#" name="pattern1"><img src="themes/switch/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
+		<a href="themes/css/#" name="pattern2"><img src="themes/switch/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern3"><img src="themes/switch/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern4"><img src="themes/switch/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern5"><img src="themes/switch/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern6"><img src="themes/switch/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern7"><img src="themes/switch/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
+		
+		<a href="themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
+		
+		<a href="themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
+		 
+	</div>
+	</div>
+</div>
+<noscript />
+</body>
+</html>
